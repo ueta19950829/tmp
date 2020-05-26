@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sign Up</title>
+<style>
+body{
+  background-size: 30px 30px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #fef9fb;
+  background-image: radial-gradient(#ffd6ea 15%, transparent 20%),
+                    radial-gradient(#ffff8e 15%, transparent 20%);
+  background-position: 0 0, 15px 15px;
+}
+h1{color: #e73562}
+label{color: #eb6ea0}
+input{color: #db7093}	
+</style>
+</head>
+<body>
+<h1>♡♡♡ 新規登録 ♡♡♡</h1>
+<form action="/jTraining/IdolSingInServlet" method="post">
+<label for="name">♡ おなまえ ♡</label> <br/><br/>
+<input type="text" name="user_id"><br/><br/>	
+
+
+<label for="age">♡ ねんれい ♡</label> <br/><br/>
+<input type="text" name="user_age"><br/><br/>
+
+
+<label for="password">♡ ぱすわーど ♡</label> <br/><br/>
+<input type="password" name="user_passward"><br/><br/>
+
+<input type="submit" value="♡とうろく♡">
+</form>
+</body>
+</html>
